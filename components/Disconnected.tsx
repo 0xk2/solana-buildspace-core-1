@@ -18,7 +18,7 @@ const Disconnected: FC = () => {
       } else {
         connect().catch((error) => {})
       }
-    },[wallet, connect, modalState.setVisible]
+    },[wallet, connect, modalState]
   )
 
   return (
